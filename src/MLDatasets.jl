@@ -144,6 +144,12 @@ export TemporalBrains
 include("datasets/graphs/windmillenergy.jl")
 export WindMillEnergy
 
+include("datasets/graphs/amazon.jl")
+export AmazonComputers
+export AmazonPhoto
+
+include("datasets/graphs/zinc.jl")
+export ZINC
 # Meshes
 
 include("datasets/meshes/faust.jl")
@@ -168,7 +174,8 @@ function __init__()
     __init__pemsbay()
     __init__temporalbrains()
     __init__windmillenergy()
-
+    __init__amazon()
+    __init__zinc()
     # misc
     __init__iris()
     __init__mutagenesis()

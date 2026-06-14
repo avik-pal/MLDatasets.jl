@@ -36,4 +36,7 @@ Reddit
 TemporalBrains
 TUDataset
 WindMillEnergy
+AmazonComputers
+AmazonPhoto
+ZINC
 ```
